@@ -1,0 +1,28 @@
+{
+  "name": "automation-timesheet-summary",
+  "version": "1.0.0",
+  "description": "Timesheet summary: dependency-free Node.js script",
+  "type": "module",
+  "license": "MIT",
+  "author": "Elzam MAMAH <ceo@monsieurelzam.com> (https://monsieurelzam.com)",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "automation-timesheet-summary": "src/timesheet-summary.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsieurElzam/automation-timesheet-summary.git"
+  },
+  "homepage": "https://monsieurelzam.com/en/scripts",
+  "keywords": [
+    "automation",
+    "cli",
+    "nodejs",
+    "timesheet-summary"
+  ]
+}
